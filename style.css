@@ -1,0 +1,132 @@
+.banner {
+    background-image: url(https://static.wixstatic.com/media/f1c650_7c2cd6ea45914df691367855f1d85c49~mv2.png/v1/fill/w_1187,h_699,fp_0.49_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/005.png);
+    background-position: center;
+    background-size: cover;
+    height: 88vh;
+    padding: 10px 0px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 8px, rgba(0, 0, 0, 0.3) 0px 10px 10px -5px, rgba(0, 0, 0, 0.2) 0px -6px 1px inset;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    /* padding-left: 5%; */
+    padding: 20px 0 40px 60px;
+}
+
+.hire-me {
+    position: fixed;
+    right: 7%;
+    top: 8%;
+    background-color: black;
+    color: white;
+    padding: 8px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border: 5px solid white;
+    border-radius: 80px;
+    animation: pulse .8s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {}
+
+    50% {
+        scale: 0.9;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+.menu {
+    height: 30px;
+    position: fixed;
+    right: 1.7%;
+    top: calc(48%);
+}
+
+.menu svg {
+    height: 100%;
+    width: 100%;
+}
+
+.banner .banner-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.banner .banner-content h1 span {
+    font-size: 4rem;
+    color: #b4b4b4;
+}
+
+.logo svg {
+    width: fit-content;
+}
+
+.logo {
+    height: 50px;
+    margin: 20px;
+}
+
+.banner-footer p {
+    margin: 0;
+}
+
+.banner-footer p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+}
+
+.banner-footer p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.68);
+}
+
+
+
+/* Menu */
+
+.menu-sec {
+    height: fit-content;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    /* font-size: 7rem; */
+    /* padding-bottom: 40px; */
+    padding: 0 30px 30px 40px;
+}
+
+.menu-sec p {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-sec .heading {
+    font-size: 7em;
+    margin-bottom: -25px;
+}
+
+.menu-sec .count {
+    font-size: 2em;
+}
+
+.menu-sec hr {
+    margin: 0;
+    border: 1px solid white;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.close {
+    position: fixed;
+    right: 7%;
+    top: 8%;
+    background-color: black;
+    color: white;
+    padding: 8px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border: 5px solid white;
+    border-radius: 80px;
+    animation: pulse .8s infinite ease-in-out;
+}
